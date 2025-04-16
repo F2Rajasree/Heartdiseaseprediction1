@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 from imblearn.over_sampling import SMOTE
 
 # Load Dataset
-file_path = r"C:\Users\Harshitha Reddy\OneDrive\Documents\RTP_Project\New\framingham.csv"
+file_path = r"C:\Users\Rajasree\Desktop\Heart Disease Model\framingham.csv"
 data = pd.read_csv(file_path)
 
 # Load Model, Scaler & Feature Names
